@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/locSection">
+        <ImageView
+            android:src="@drawable/profile"
+            android:layout_width="85.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1" />
+        <TableLayout
+            android:minWidth="40px"
+            android:minHeight="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="10dp">
+                <ImageButton
+                    android:src="@drawable/contact"
+                    android:layout_width="42.0dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/contactbut" />
+                <ImageButton
+                    android:src="@drawable/map"
+                    android:layout_width="42.0dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/mapbut" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="330.5dp">
+                <ImageButton
+                    android:src="@drawable/mail"
+                    android:layout_width="42.0dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/mailbut" />
+                <ImageButton
+                    android:src="@drawable/phone"
+                    android:layout_width="42.0dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/phonebut" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="10dp">
+                <ImageButton
+                    android:src="@drawable/cake"
+                    android:layout_width="42.0dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/cakebut" />
+                <ImageButton
+                    android:src="@drawable/key"
+                    android:layout_width="42.0dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/keybut" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameSection">
+        <TextView
+            android:text="Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:id="@+id/NameLabel" />
+        <TextView
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="left"
+            android:id="@+id/DescText" />
+    </LinearLayout>
+    <TextView
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+    <TextView
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+    <TextView
+        android:text="How can I help you?"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>
